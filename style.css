@@ -1,0 +1,111 @@
+body, body * {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+}
+
+body {
+  background: #55bfd3;
+  height: 100vh;
+  width: 100vw;
+  padding: 50px;
+}
+
+#board {
+  padding: 0 10%;
+}
+
+#canvas {
+  text-align: center;
+}
+
+#canvas h1 {
+  color: #fff;
+  font-weight: lighter;
+  padding-top: 40px;
+}
+
+#canvas .img_header {
+  margin: 0 auto;
+  display: block;
+  width: 350px;
+}
+
+.conten {
+
+}
+
+.content h3 {
+  color: #fff;
+  padding: 50px 0 10px 0;
+  letter-spacing: 4px;
+  font-weight: 500;
+}
+
+.content p:first-child {
+  padding-top: 50px;
+}
+
+.content p {
+  max-width: 750px;
+  margin: 0 auto;
+  color: #fff;
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+}
+
+.metod ul {
+  margin-left: 20px;
+  display: block;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+
+.metod {
+  max-width: 750px;
+  margin: 50px auto;
+  border: dashed 1px #fff;
+  padding: 10px;
+  text-align: left;
+}
+
+.metod:hover {
+  border: dashed 1px rgba(255, 255, 255, 0.8);
+}
+
+.metod .side {
+  display: flex;
+}
+.metod h3 {
+  padding: 0px 0 10px 0;
+}
+
+.code {
+  font-family: 'Nova Mono', monospace;
+}
+
+
+.sponsors {
+  max-width: 750px;
+  border: dashed 1px #fff;
+  margin: 20px auto 100px auto;
+  min-height: 300px;
+  text-align: left;
+}
+
+.peopel {
+  display: inline-block;
+  padding: 25px;
+  text-align: center;
+}
+.peopel .name {}
+.peopel img {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+}
